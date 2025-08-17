@@ -1,4 +1,4 @@
-## 👗 Sales Prediction using Machine Learning
+# 👗 TrendifyAI – AI-powered trend & sales forecasting
 
 ### 📌 Overview  
 This project focuses on **predicting sales** for a **fashion brand** using **machine learning algorithms**! 🛍️📈  
@@ -45,8 +45,8 @@ For this project, we use a **sales dataset** containing:
 ### 📜 How to Run the Project?  
 #### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/Aishvariyaa/Sales-Prediction-Fashion-Brand.git
-cd Sales-Prediction-using-ML
+git clone https://github.com/Aishvariyaa/TrendifyAI.git
+cd TrendifyAI 
 ```  
 
 #### 2️⃣ Install Dependencies  
