@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
-
-# Import necessary libraries
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
@@ -22,11 +16,10 @@ train_data = pd.read_csv('ProductSalesTrainingData.csv')
 # Load the testing data
 test_data = pd.read_csv('ProductSalesTestingData.csv')
 
-# Print column names to verify
 print("Columns in the training dataset:", train_data.columns)
 print("Columns in the testing dataset:", test_data.columns)
 
-# Identify the target column (assuming it's the last column)
+# Identify the target column
 target_column = train_data.columns[-1]
 print(f"Target column identified as: {target_column}")
 
